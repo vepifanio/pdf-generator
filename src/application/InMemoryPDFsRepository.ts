@@ -1,5 +1,5 @@
-import { PDF } from './PDF';
-import { PDFsRepository } from './PDFsRepository';
+import { PDF } from './entity/PDF';
+import { PDFsRepository } from './repository/PDFsRepository';
 
 export class InMemoryPDFsRepository implements PDFsRepository {
   items: PDF[] = [];
